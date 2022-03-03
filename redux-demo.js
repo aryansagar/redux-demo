@@ -7,7 +7,7 @@ if (action.type === "increment"){
        counter: state.counter + 1
    };
 }
-if(action.tyoe === "decrement"){
+if(action.type === "decrement"){
     return {
         counter: state.counter - 1,
     }
